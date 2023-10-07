@@ -160,14 +160,14 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
 }
 .header-row__logo {
+  margin-left: -100px;
   width: 142px;
   padding: 10px;
 }
 .header-row__title {
+  margin-right: 100px;
   font-size: 3.6rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -202,13 +202,14 @@ p {
   }
 
   .header-row__logo {
+    margin-left: 0px;
     width: 100px;
   }
 
   .header-row__title {
     font-size: 2.4rem;
     text-align: center;
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 /* // HEADER*/

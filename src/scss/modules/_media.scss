@@ -16,12 +16,13 @@
         transition: height 0.5s linear;
     }
         .header-row__logo {
+            margin-left: 0px;
             width: 100px;
         }
         .header-row__title {
             font-size: 2.4rem;
             text-align: center;
-            margin-left: 0;
+            margin-right: 0;
         }
 }
 /* // HEADER*/

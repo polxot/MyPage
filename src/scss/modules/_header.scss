@@ -10,11 +10,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
+   // flex-wrap: nowrap;
 		// .header-row__logo
         
 		&__logo {
-           // margin-left: -100px;
+            margin-left: -100px;
             width: 142px;
             padding: 10px;
             //margin-right: 390px;
@@ -23,7 +23,7 @@
 		// .header-row__title
 
 		&__title {
-            // margin-left: 320px;
+           margin-right: 100px;
             font-size: 3.6rem;
             font-weight: 800;
             text-transform: uppercase;

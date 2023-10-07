@@ -1,0 +1,27 @@
+/*HEADER*/
+
+//Для экранов шириной  768px
+@media (max-width:992px) {
+    .header-row__title {
+        font-size: 3.0rem;
+    }
+}
+@media (max-width:768px) {
+    .header-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        transition: height 0.5s linear;
+    }
+        .header-row__logo {
+            width: 100px;
+        }
+        .header-row__title {
+            font-size: 2.4rem;
+            text-align: center;
+            margin-left: 0;
+        }
+}
+/* // HEADER*/

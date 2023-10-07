@@ -2,22 +2,19 @@
     background: rgb(12,158,160);
     background: radial-gradient(circle, rgba(12,158,160,1) 4%, rgba(82,51,154,1) 100%);
 
-   
-    min-height: 90px;   
+//     min-height: 90px;   
 }
-
-
 
 
 .header-row {
     display: flex;
-     //justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
 		// .header-row__logo
         
 		&__logo {
-            margin-left: 0px;
+           // margin-left: -100px;
             width: 142px;
             padding: 10px;
             //margin-right: 390px;
@@ -26,11 +23,11 @@
 		// .header-row__title
 
 		&__title {
-            margin-left: 320px;
+            // margin-left: 320px;
             font-size: 3.6rem;
             font-weight: 800;
             text-transform: uppercase;
-            color:rgb(233, 186, 186);
+            color:#e63c3c;
             line-height: 1.2;
             text-shadow: 1px 1px 2px rgb(6, 237, 240) ;
 		}

@@ -114,6 +114,8 @@ legend {
 }
 
 html {
+  background-image: url(../assets/header/bg.png);
+  background-size: cover;
   font-size: 10px;
   line-height: 1;
 }
@@ -147,13 +149,14 @@ p {
 .header {
   background: #0c9ea0;
   background: radial-gradient(circle, #0c9ea0 4%, #52339a 100%);
-  min-height: 90px;
 }
 
 .header-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -161,18 +164,53 @@ p {
       flex-wrap: nowrap;
 }
 .header-row__logo {
-  margin-left: 0px;
   width: 142px;
   padding: 10px;
 }
 .header-row__title {
-  margin-left: 320px;
   font-size: 3.6rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: #e9baba;
+  color: #e63c3c;
   line-height: 1.2;
   text-shadow: 1px 1px 2px #06edf0;
 }
+
+/*HEADER*/
+@media (max-width: 992px) {
+  .header-row__title {
+    font-size: 3.0rem;
+  }
+}
+@media (max-width: 768px) {
+  .header-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    -webkit-transition: height 0.5s linear;
+    transition: height 0.5s linear;
+  }
+
+  .header-row__logo {
+    width: 100px;
+  }
+
+  .header-row__title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-left: 0;
+  }
+}
+/* // HEADER*/
 
 /*# sourceMappingURL=index.css.map */
